@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">sholawat</string>
+    <string name="title_activity_main">main</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Profile</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_activity_mainmenu1">mainmenu1</string>
+</resources>
