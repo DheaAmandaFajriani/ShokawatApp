@@ -16,21 +16,6 @@
             android:name=".Mainlist"
             android:exported="false" />
         <activity
-            android:name=".mainmenu1"
-            android:exported="false"
-            android:label="@string/title_activity_mainmenu1" />
-        <activity
-            android:name=".MainActivity2"
-            android:exported="false"
-            android:label="@string/title_activity_main2" />
-        <activity
-            android:name=".main"
-            android:exported="false"
-            android:label="@string/title_activity_main" />
-        <activity
-            android:name=".mainMenu"
-            android:exported="false" />
-        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
@@ -39,6 +24,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>
