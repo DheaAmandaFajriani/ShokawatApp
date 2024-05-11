@@ -6,6 +6,10 @@
     <string name="title_notifications">Profile</string>
     <string name="title_activity_main2">MainActivity2</string>
     <string name="title_activity_mainmenu1">mainmenu1</string>
+    <string name="tentangkami">Temukan Lirik Sholawat Favorit Anda dengan Mudah
+        APK Sholawat adalah aplikasi Android yang menyediakan kumpulan lirik sholawat terlengkap.
+        Lirik sholawat disajikan dengan rapi dan mudah dibaca.
+        Anda juga dapat mencari lirik sholawat favorit Anda dengan mudah.</string>
     <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
         volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
         dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
