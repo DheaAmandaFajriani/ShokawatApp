@@ -13,6 +13,12 @@
         android:theme="@style/Theme.Sholawat"
         tools:targetApi="31">
         <activity
+            android:name=".TentangKami"
+            android:exported="false" />
+        <activity
+            android:name=".tampilanLirik"
+            android:exported="false" />
+        <activity
             android:name=".Mainlist"
             android:exported="false" />
         <activity

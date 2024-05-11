@@ -22,6 +22,8 @@ class rvsholawat(
         fun bindView(pmi2: list, listener: (list) -> Unit){
             img.setImageResource(pmi2.imglist)
             name.text = pmi2.name
+
+
         }
 
     }
@@ -35,14 +37,15 @@ class rvsholawat(
 
     override fun onBindViewHolder(holder: listViewHolder, position: Int) {
         holder.bindView(pmi2[position], listener)
-//        holder.cardView.setOnClickListener{
-//            val context1 = holder.itemView.context
-//            val intent= Intent(context1,StokDarahPMI::class.java).apply {
-//                putExtra("nama",pmi2[position].namePmi)
-//                putExtra("alamat",pmi2[position].almtPmi)
-//            }
-//            context1.startActivity(intent)
-//        }
+        holder.cardView.setOnClickListener{
+            val context1 = holder.itemView.context
+            val intent= Intent(context1,tampilanLirik::class.java).apply {
+                putExtra("nama",pmi2[position].name)
+                putExtra("alamat",pmi2[position].imglist)
+                putExtra("lirik",pmi2[position].lirik)
+            }
+            context1.startActivity(intent)
+        }
     }
 
 
